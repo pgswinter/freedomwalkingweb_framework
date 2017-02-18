@@ -1,0 +1,30 @@
+@import fw-style
+@import fw-form-style
+@import common
+
+.fw-main-nav
+	@extend .clear-float
+	@extend .titl-helv-roma
+	@extend .set-just
+	margin-top: 30px
+	padding-top: 15px
+	padding-bottom: 15px
+	*
+		@extend .clea-padd
+	&.right
+		float: right
+	ul
+		@extend .clea-padd
+		li
+			a
+				font-family: map-get($fw-helve,3)
+				text-align: right
+				@extend .set-uppe
+				@extend .trns-efct
+				&:hover
+					color: map-get($fw-neut,2)
+			&.active
+				a
+					color: map-get($fw-neut,2)
+	img
+		@extend .img-wrap
