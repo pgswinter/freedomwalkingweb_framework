@@ -185,6 +185,50 @@
 		</div>
 
 	</div>
+</div>
+<div class="fw-select-area">
+	
+	<div class="wrapper">
+		<h2>get started with us</h2>
+		<div class="area-wrap neut-color">
+			
+			<article>
+				
+				<h3><i class="fa fa-address-book"></i> Client Area</h3>
+				<p>Do you have a project and wanna find professional assistant?</p>
+				<a href="">Find the best candidate</a>
+			
+			</article>
+
+		</div>
+		
+		<div class="area-wrap dark-color">
+			
+			<article>
+				
+				<h3><i class="fa fa-address-card"></i> Member Area</h3>
+				<p>Would you like to introduct yourself and find your business partner?</p>
+				<a href="">Tell us about your ability</a>
+			
+			</article>
+		</div>
+		
+		<div class="area-wrap white-color">
+			
+			<article>
+				
+				<h3><i class="fa fa-pencil-square"></i> Blog Area</h3>
+				<p>Would you like share your experience about your career or life?</p>
+				<a href="">Start now</a>
+				<!-- <p class="postscript-quote">: ) and receive attractive royalties from Freedomwalking.</p> -->
+			
+			</article>
+		</div>
+
+	</div>
+
+</div>
+<div class="fw-container">
 	<div class="form-team-container" id="best-team">
 
 		<h2><?php echo $main_nav['bestteam'];?></h2>

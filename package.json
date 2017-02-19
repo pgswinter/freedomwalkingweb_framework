@@ -1,0 +1,26 @@
+{
+  "name": "freedomwalkingteam",
+  "version": "1.0.0",
+  "description": "There is PHP framwork. You can confuse between design frontend and write server site at here. Created by Tuan Anh NGUYEN",
+  "main": "webteam/bin/index.php",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgswinter/freedomwalkingweb_framework.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "Tuan Anh NGUYEN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgswinter/freedomwalkingweb_framework/issues"
+  },
+  "homepage": "https://github.com/pgswinter/freedomwalkingweb_framework#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

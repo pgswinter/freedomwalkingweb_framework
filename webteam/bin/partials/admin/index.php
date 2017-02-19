@@ -82,7 +82,6 @@
 		<div class="fw-right">
 			
 			<label for="" class="rnd-btn user-check">Hello, <?php echo $_SESSION['login_user'];?>!</label>		
-			<h2>New Achivement</h2>
 			<a href="signout/index.php" class="rnd-btn sign-out-btn">Sign out</a>
 			<?php include('task/' . $admin_page . '/index.php');?>
 
@@ -140,9 +139,19 @@
 		})
 		});
 
-		 $('#name_team_slct').change(function(){
+		$('#name_team_slct').change(function(){
 
 	        $('.name_team_render').val($(this).val())
+	        
+	    });
+	    $('#name_busi_slct').change(function(){
+
+	        $('.name_busi_render').val($(this).val())
+	        
+	    });
+	    $('#id_link_slct').change(function(){
+
+	        $('.id_link_render').val($(this).val())
 	        
 	    });
 

@@ -72,6 +72,7 @@
 	<link rel="stylesheet" href="../dist/css/fw-gallery.css">
 	<link rel="stylesheet" href="../dist/css/fw-view-comment.css">
 	<link rel="stylesheet" href="../dist/css/fw-task-done.css">
+	<link rel="stylesheet" href="../dist/css/fw-select-area.css">
 
 	<!-- Responsive CSS -->
 	<link rel="stylesheet" href="../dist/css/responsive.css">
